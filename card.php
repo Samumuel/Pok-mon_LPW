@@ -17,17 +17,35 @@ $Card->setEvolucao($evolucao);
 $Card->setTipo1($tipo1);
 $Card->setTipo2($tipo2);
 
+$Card->getGeraCard();
 
-echo "<h1>Pokémon Informado</h1>";
+?>
 
-echo "<div style='border: solid 1px; width: 300px; margin-top: 20px;'>";
-echo "Pokémon: " . $Card->getNome() . "<br>";
-echo "Descrição: " . $Card->getDescricao() . "<br>";
-echo "Fase evolutíva: " . $Card->getEvolucao() . "<br>";
-echo "Tipo 1: <img style='width='70' height='70';  src='" . $Card->getVerificaTipo1() . "' />";
-echo "Tipo 2: <img style='width='70' height='70'; src='" . $Card->getVerificaTipo2() . "' /><br>";
-echo "<img style='width: 100%; height: auto;' src='" . $Card->getLink() . "' /><br>";
-echo "</div>";
+<!DOCTYPE html>
+<html lang="pt-br">
 
-echo "<br><br>";
-echo "<a href='filme_formulario.php' style = 'color: cadetblue;'>Cadastrar outro filme</a>";
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+
+<body>
+</body>
+<style>
+    @font-face {
+        font-family: 'Pokemon Classic';
+        src: url('fonts/Pokemon-Classic.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+        font-family: 'Pokemon Classic', sans-serif;
+        background-image: url("https://pokedle.net/img/Background.b373eb68.png");
+        background-position: center top;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+</html>
