@@ -186,4 +186,22 @@ class Cards
             return "https://w7.pngwing.com/pngs/380/139/png-transparent-x-red-mark-incorrect-thumbnail.png";
         }
     }
+    public function getGeraCard()
+    {
+        echo "<div class='d-flex justfy-content-center align-items-center vh-100'>";
+        echo "<h1 class='h3 mb-3 fw-normal'>Pokémon Informado</h1><br>";
+
+        echo "<div class=''style='border: solid 1px; width: 300px; margin-top: 20px;'>";
+        echo "Pokémon: " . $this->getNome() . "<br>";
+        echo "Descrição: " . $this->getDescricao() . "<br>";
+        echo "Fase evolutíva: " . $this->getEvolucao() . "<br>";
+        echo "Tipo 1: <img style='width='70' height='70';  src='" . $this->getVerificaTipo1() . "' />";
+        echo "Tipo 2: <img style='width='70' height='70'; src='" . $this->getVerificaTipo2() . "' /><br>";
+        echo "<img style='width: 100%; height: auto;' src='" . $this->getLink() . "' /><br>";
+        echo "</div>";
+        echo "</div>";
+
+        echo "<br><br>";
+        echo "<a href='filme_formulario.php' style = 'color: cadetblue;'>Cadastrar outro Pokémon</a>";
+    }
 }
