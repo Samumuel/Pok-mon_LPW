@@ -8,7 +8,7 @@
     <title>Pokémon</title>
 </head>
 
-<body class="d-flex align-items-center justify-content-center min-vh-100 bg-light">
+<body class="d-flex align-items-center justify-content-center min-vh-100">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6 col-lg-4">
