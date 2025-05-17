@@ -119,89 +119,105 @@ class Cards
     public function getVerificaTipo1()
     {
         if ($this->getTipo1() == 'No') {
-            return "https://ih1.redbubble.net/image.4810549878.0710/st,small,507x507-pad,600x600,f8f8f8.u2.jpg";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/normal.svg";
         } else if ($this->getTipo1() == 'Fo') {
-            return  "https://pm1.aminoapps.com/6712/a5a401797e0d625d7548d309752d746fb65aecdf_hq.jpg";
+            return  "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/fire.svg";
         } else if ($this->getTipo1() == 'Ag') {
-            return "https://pm1.aminoapps.com/6713/c4c80954a8bd3f66a6e8315ba4675d512385fe30_hq.jpg";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/water.svg";
         } elseif ($this->getTipo1() == 'El') {
-            return "https://preview.redd.it/any-electric-type-team-member-suggestions-v0-90tvkiywtaqd1.jpeg?auto=webp&s=3711de2583b3b6f87e39fadae7d06faebb241bf4";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/electric.svg";
         } elseif ($this->getTipo1() == 'Gr') {
-            return "https://pm1.aminoapps.com/6714/113c21b97a14ba222df9023c8b4445e8810d66a3_00.jpg";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/grass.svg";
         } elseif ($this->getTipo1() == 'Ge') {
-            return "https://gmatheus-spinardi.e.usp.br/pokemonbasics/images/ice.png";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/ice.svg";
         } elseif ($this->getTipo1() == 'Lu') {
-            return "https://e7.pngegg.com/pngimages/374/734/png-clipart-pokemon-types-pokemon-trading-card-game-video-symbol-blue-fire-dragon-orange-logo-thumbnail.png";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/fighting.svg";
         } elseif ($this->getTipo1() == 'Ve') {
-            return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRlzpcnnOeioHCxSvKyMcIQhRmqcFwBYB6Q&s";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/poison.svg";
         } elseif ($this->getTipo1() == 'Te') {
-            return "https://lh3.googleusercontent.com/I6GqXVWkjogiio0bfV-0oAq7A1Q6F2bjgfmOWtFywq3HYkqUvJRHR7iomaNkt8FJ_Y9KzLecLNQMX6gkhOTvDuJSU53-4rxeUb0CjlcTF_F4";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/ground.svg";
         } elseif ($this->getTipo1() == 'Vo') {
-            return "https://pm1.aminoapps.com/8909/4c035de5157c3bdad1f2233ede3979154e393a7cr1-1280-1280v2_00.jpg";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/flying.svg";
         } elseif ($this->getTipo1() == 'Ps') {
-            return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNP0YQSqcvQNc6VJ57ex8YVAdJrCw1ekvcMgqQ33F0bNIM37ERR1zSUxdVijed5k1NNY&usqp=CAU";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/psychic.svg";
         } elseif ($this->getTipo1() == 'In') {
-            return "https://gmatheus-spinardi.e.usp.br/pokemonbasics/images/bug.png";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/bug.svg";
         } elseif ($this->getTipo1() == 'Fa') {
-            return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQczzD5zkTgKpBQlMkN0XAP0lPc7WQEYL7dEA&s";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/fairy.svg";
         } elseif ($this->getTipo1() == 'Dr') {
-            return "https://external-preview.redd.it/UpDRyZ7vYVzZmE_RjT6LYhGdt5xAuI8emwue3ol83zQ.jpg?auto=webp&s=1ea88b2ee8a47053b4e8ff17a2b54b5a95dfd811";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/dragon.svg";
         } elseif ($this->getTipo1() == 'Me') {
-            return "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfgddcz-06a632af-8eb8-41e3-8468-dcc0eb9886f4.png/v1/fill/w_1280,h_1280/metal_type_symbol_tcg_by_jormxdos_dfgddcz-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2U4ZGRjNGRhLTIzZGQtNDUwMi1iNjViLTM3OGM5Y2ZlNWVmYVwvZGZnZGRjei0wNmE2MzJhZi04ZWI4LTQxZTMtODQ2OC1kY2MwZWI5ODg2ZjQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.TvVirKp3SOiBkZgrJvZb0iKASIOy66c7mdKnZ3aBPTA";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/steel.svg";
+        } elseif ($this->getTipo1() == 'Pe') {
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/rock.svg";
+        } elseif ($this->getTipo1() == 'Ft') {
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/ghost.svg";
+        } elseif ($this->getTipo1() == 'Es') {
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/dark.svg";
         }
     }
     public function getVerificaTipo2()
     {
-        if ($this->getTipo1() == 'No') {
-            return "https://ih1.redbubble.net/image.4810549878.0710/st,small,507x507-pad,600x600,f8f8f8.u2.jpg";
+        if ($this->getTipo2() == 'No') {
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/normal.svg";
         } else if ($this->getTipo2() == 'Fo') {
-            return  "https://pm1.aminoapps.com/6712/a5a401797e0d625d7548d309752d746fb65aecdf_hq.jpg";
+            return  "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/fire.svg";
         } else if ($this->getTipo2() == 'Ag') {
-            return "https://pm1.aminoapps.com/6713/c4c80954a8bd3f66a6e8315ba4675d512385fe30_hq.jpg";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/water.svg";
         } elseif ($this->getTipo2() == 'El') {
-            return "https://preview.redd.it/any-electric-type-team-member-suggestions-v0-90tvkiywtaqd1.jpeg?auto=webp&s=3711de2583b3b6f87e39fadae7d06faebb241bf4";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/electric.svg";
         } elseif ($this->getTipo2() == 'Gr') {
-            return "https://pm1.aminoapps.com/6714/113c21b97a14ba222df9023c8b4445e8810d66a3_00.jpg";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/grass.svg";
         } elseif ($this->getTipo2() == 'Ge') {
-            return "https://gmatheus-spinardi.e.usp.br/pokemonbasics/images/ice.png";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/ice.svg";
         } elseif ($this->getTipo2() == 'Lu') {
-            return "https://e7.pngegg.com/pngimages/374/734/png-clipart-pokemon-types-pokemon-trading-card-game-video-symbol-blue-fire-dragon-orange-logo-thumbnail.png";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/fighting.svg";
         } elseif ($this->getTipo2() == 'Ve') {
-            return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRlzpcnnOeioHCxSvKyMcIQhRmqcFwBYB6Q&s";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/poison.svg";
         } elseif ($this->getTipo2() == 'Te') {
-            return "https://lh3.googleusercontent.com/I6GqXVWkjogiio0bfV-0oAq7A1Q6F2bjgfmOWtFywq3HYkqUvJRHR7iomaNkt8FJ_Y9KzLecLNQMX6gkhOTvDuJSU53-4rxeUb0CjlcTF_F4";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/ground.svg";
         } elseif ($this->getTipo2() == 'Vo') {
-            return "https://pm1.aminoapps.com/8909/4c035de5157c3bdad1f2233ede3979154e393a7cr1-1280-1280v2_00.jpg";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/flying.svg";
         } elseif ($this->getTipo2() == 'Ps') {
-            return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNP0YQSqcvQNc6VJ57ex8YVAdJrCw1ekvcMgqQ33F0bNIM37ERR1zSUxdVijed5k1NNY&usqp=CAU";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/psychic.svg";
         } elseif ($this->getTipo2() == 'In') {
-            return "https://gmatheus-spinardi.e.usp.br/pokemonbasics/images/bug.png";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/bug.svg";
         } elseif ($this->getTipo2() == 'Fa') {
-            return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQczzD5zkTgKpBQlMkN0XAP0lPc7WQEYL7dEA&s";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/fairy.svg";
         } elseif ($this->getTipo2() == 'Dr') {
-            return "https://external-preview.redd.it/UpDRyZ7vYVzZmE_RjT6LYhGdt5xAuI8emwue3ol83zQ.jpg?auto=webp&s=1ea88b2ee8a47053b4e8ff17a2b54b5a95dfd811";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/dragon.svg";
         } elseif ($this->getTipo2() == 'Me') {
-            return "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfgddcz-06a632af-8eb8-41e3-8468-dcc0eb9886f4.png/v1/fill/w_1280,h_1280/metal_type_symbol_tcg_by_jormxdos_dfgddcz-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2U4ZGRjNGRhLTIzZGQtNDUwMi1iNjViLTM3OGM5Y2ZlNWVmYVwvZGZnZGRjei0wNmE2MzJhZi04ZWI4LTQxZTMtODQ2OC1kY2MwZWI5ODg2ZjQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.TvVirKp3SOiBkZgrJvZb0iKASIOy66c7mdKnZ3aBPTA";
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/steel.svg";
+        } elseif ($this->getTipo2() == 'Pe')  {
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/rock.svg";
+        } elseif ($this->getTipo2() == 'Ft') {
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/ghost.svg";
+        } elseif ($this->getTipo2() == 'Es') {
+            return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/dark.svg";
         } else {
-            return "https://w7.pngwing.com/pngs/380/139/png-transparent-x-red-mark-incorrect-thumbnail.png";
+            return "nenhum";
         }
     }
     public function getGeraCard()
     {
         echo "<div class='d-flex justfy-content-center align-items-center vh-100'>";
-        echo "<h1 class='h3 mb-3 fw-normal'>Pokémon Informado</h1><br>";
 
-        echo "<div class=''style='border: solid 1px; width: 300px; margin-top: 20px;'>";
+
+        echo "<div class='rounded-4 border border-5 border-primary'style='width: 30rem; margin: 20px; background-color: white'>";
         echo "Pokémon: " . $this->getNome() . "<br>";
         echo "Descrição: " . $this->getDescricao() . "<br>";
         echo "Fase evolutíva: " . $this->getEvolucao() . "<br>";
         echo "Tipo 1: <img style='width='70' height='70';  src='" . $this->getVerificaTipo1() . "' />";
-        echo "Tipo 2: <img style='width='70' height='70'; src='" . $this->getVerificaTipo2() . "' /><br>";
-        echo "<img style='width: 100%; height: auto;' src='" . $this->getLink() . "' /><br>";
+        if($this->getTipo2() == "nenhum"){
+            echo "Tipo 2: <img style='width='70' height='70'; src='" . $this->getVerificaTipo2() . "' /><br>";
+        } else{ echo "<br>";}
+        echo "<hr><img style='width: 100%; height: auto;' src='" . $this->getLink() . "' /><br>";
         echo "</div>";
-        echo "</div>";
-
         echo "<br><br>";
         echo "<a href='filme_formulario.php' style = 'color: cadetblue;'>Cadastrar outro Pokémon</a>";
+        echo "</div>";
+
+
+
     }
 }
