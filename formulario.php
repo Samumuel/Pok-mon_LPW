@@ -50,6 +50,9 @@
                                 <option value="Fa">Fada</option>
                                 <option value="Dr">Dragão</option>
                                 <option value="Me">Metal</option>
+                                <option value="Pe">Pedra</option>
+                                <option value="Ft">Fantasma</option>
+                                <option value="Es">Escuridão</option>
                             </select>
                         </div>
 
@@ -71,6 +74,9 @@
                                 <option value="Fa">Fada</option>
                                 <option value="Dr">Dragão</option>
                                 <option value="Me">Metal</option>
+                                <option value="Pe">Pedra</option>
+                                <option value="Ft">Fantasma</option>
+                                <option value="Es">Escuridão</option>
                                 <option value="Nenhum">Não Tem</option>
                             </select>
                         </div>
