@@ -17,9 +17,8 @@ $Card->setEvolucao($evolucao);
 $Card->setTipo1($tipo1);
 $Card->setTipo2($tipo2);
 
-$Card->getGeraCard();
-
 ?>
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -30,6 +29,9 @@ $Card->getGeraCard();
 </head>
 
 <body>
+    <div class="text-center d-flex justify-content-center align-items-center" style="min-height: 70vh;">
+        <?php echo $Card->getGeraCard(); ?>
+    </div>
 </body>
 <style>
     @font-face {
