@@ -1,3 +1,4 @@
+//coloque dentro da pasta"modelo"
 <?php
 
 class Cards
@@ -195,29 +196,24 @@ class Cards
         } elseif ($this->getTipo2() == 'Es') {
             return "https://www.lmcorp.com.br/arquivos/img/assets/tcg_2/icons/types/dark.svg";
         } else {
-            return "nenhum";
+            return false;
         }
     }
     public function getGeraCard()
     {
         echo "<div class='d-flex justfy-content-center align-items-center vh-100'>";
-
-
         echo "<div class='rounded-4 border border-5 border-primary'style='width: 30rem; margin: 20px; background-color: white'>";
-        echo "Pokémon: " . $this->getNome() . "<br>";
-        echo "Descrição: " . $this->getDescricao() . "<br>";
-        echo "Fase evolutíva: " . $this->getEvolucao() . "<br>";
-        echo "Tipo 1: <img style='width='70' height='70';  src='" . $this->getVerificaTipo1() . "' />";
-        if($this->getTipo2() == "nenhum"){
-            echo "Tipo 2: <img style='width='70' height='70'; src='" . $this->getVerificaTipo2() . "' /><br>";
+        echo "Pokémon:" . $this->getNome() . "<br><br>";
+        echo "Descrição: " . $this->getDescricao() . "<br><br>";
+        echo "Fase evolutíva: " . $this->getEvolucao() . "<br><br>";
+        echo "Tipo 1: <img style='width='50' height='50';  src='" . $this->getVerificaTipo1() . "' />";
+        if($this->getVerificaTipo2()){
+            echo "Tipo 2: <img style='width='50' height='50'; src='" . $this->getVerificaTipo2() . "' /><br><br>";
         } else{ echo "<br>";}
-        echo "<hr><img style='width: 100%; height: auto;' src='" . $this->getLink() . "' /><br>";
+        echo "<hr><img style='width: 100%; height: auto;' src='" . $this->getLink() . "' /><br><br>";
+        echo "<a class='mx-5' href='formulario.php' style = 'color: black;'>Cadastrar outro Pokémon</a>";
         echo "</div>";
-        echo "<br><br>";
-        echo "<a href='filme_formulario.php' style = 'color: cadetblue;'>Cadastrar outro Pokémon</a>";
         echo "</div>";
-
-
 
     }
 }
